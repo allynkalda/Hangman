@@ -1,0 +1,10 @@
+li {
+	 line-height: 1.5;
+	 display: inline-block;
+	 vertical-align: middle;
+	 padding: 10px;
+}
+tr:nth-child(0) {  
+  color: red;
+  background-color: #298EB2;
+}
