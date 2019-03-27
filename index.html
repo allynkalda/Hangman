@@ -7,8 +7,16 @@
    type = "text/css"
    href = "stylesheet.css" />
 
-<button id="button" onclick="start()">Start</button>
+<table>
+  <tr id="hang">
+  </tr>
+</table>
 
+<ul id="showLetter"></ul>
+
+
+<button id="button" onclick="start()">Start</button>
+<p id="numOfGuesses"></p>
 <table style="width:30%">
   <tr>
     <td><button class="letter" onclick="guess(this.value)" value="a">A</button></td>
