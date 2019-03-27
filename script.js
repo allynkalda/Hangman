@@ -31,10 +31,12 @@ function start() {
 	}
 
 }
-
+// Counts the times guess() is called
+var counter = 0;
 
 // Receives letter input from player
 function guess(input) {
+	counter++;
 	var input;
 	//= document.getElementsByClassName("letter");
 		// Loop if input letter is same as letters in array
